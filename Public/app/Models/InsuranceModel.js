@@ -111,4 +111,4 @@
     //did you just *send* me the object you *want* me to find? wat. take it back
     if (findParamsObj instanceof Model.InsuranceModel) return findParamsObj;
   };
-})(); //indirect eval to get global scope i.e., window in browser
+})();
