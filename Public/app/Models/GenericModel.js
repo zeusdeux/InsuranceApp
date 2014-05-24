@@ -1,6 +1,7 @@
 (function() {
   "use strict";
-
+  
+  //indirect eval to get global scope i.e., window in browser
   var global = ((1, eval)("this || {}"));
   var App = global.InsuranceApp;
   var Model;
@@ -93,4 +94,4 @@
       reopenedOn: this.reopenedOn
     };
   };
-})(); //indirect eval to get global scope i.e., window in browser
+})();
