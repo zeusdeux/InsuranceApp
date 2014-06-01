@@ -6,6 +6,12 @@
 
   <title>InsuranceApp</title>
   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+  <!--<![endif]-->
   <link rel="stylesheet" href="../public/css/main.css">
 </head>
 
@@ -21,15 +27,19 @@
   </section>
   <section class="pure-g insuree">
     <div class="name-container pure-u-1">
-      <p><span class="first-name">FirstName</span>
-          <span class="last-name">LastName</span></p>
+      <p>
+        <span class="first-name">Rachel</span>
+        <span class="last-name">Zane</span>
+      </p>
     </div>
-    <div class="dob-container pure-u-1 pure-g">
-      <p class="dob pure-u-1">12/11/1988</p>
+    <div class="dob-container pure-u-1">
+      <p class="dob">12/11/1988</p>
     </div>
-    <div class="contact-container pure-u-1">
-        <p class="phone pure-u-1-5">+16462225940</p>
-        <p class="email pure-u-1-5">someid@gmail.com</p>
+    <div class="phone-container pure-u-1 pure-u-md-1-5">
+      <p class="phone">+16462228976</p>
+    </div>
+    <div class="email-container pure-u-1 pure-u-md-4-5">
+      <p class="email">testmail@gmail.com</p>
     </div>
   </section>
   <script src="../public/app/main.js"></script>
