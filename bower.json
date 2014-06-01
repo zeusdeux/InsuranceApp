@@ -1,0 +1,30 @@
+{
+  "name": "InsuranceApp",
+  "version": "0.0.1",
+  "homepage": "https://github.com/zeusdeux/InsuranceApp",
+  "authors": [
+    "Mudit Ameta <zeusdeux@gmail.com>"
+  ],
+  "description": "An app to play with Object.observe and other goodies (only works in Chrome Canary for now).",
+  "main": "/Views/index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "insuarance",
+    "object.observe"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "storage": "~0.1.0",
+    "pimp": "~0.2.3"
+  }
+}
